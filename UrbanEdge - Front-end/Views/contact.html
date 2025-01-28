@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>Contact Form </title>
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" href="../Public/styless.css">
+    <link rel="stylesheet" href="../Public/styles.css">
+</head>
+<body>
+    <!-- Main container -->
+    <div class="container">
+        <h1>Get in Touch</h1>
+        <p>Fill up the form to get in touch with us. </p>
+
+        <!-- Contact form section -->
+        <div class="contact-box">
+            <!-- Left side of the form -->
+            <div class="container-left">
+                <h3>Fill the Form*</h3>
+                <!-- Form -->
+                <form id="contactForm" onsubmit="return validateForm()">
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Name*</label>
+                            <input type="text" id="name" placeholder="Enter your Name" required>
+                        </div>
+
+                        <div class="input-group">
+                            <label>Phone*</label>
+                            <input type="text" id="Phone" placeholder="+91 1234567890" required>
+                        </div>
+                    </div>
+                    <!-- Input row for Email and Subject -->
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Email*</label>
+                            <input type="email" id="email" placeholder="youremail@gmail.com" required>
+                        </div>
+
+                        <div class="input-group">
+                            <label>Subject</label>
+                            <input type="text" id="subject" placeholder="Inquiry">
+                        </div>                       
+                    </div>
+
+                    <!-- Label for Message textarea -->
+                    <label>Message*</label>
+                    <textarea rows="10" id="message" placeholder="Enter your Message" required></textarea>
+                    <button type="submit">SEND MESSAGE</button>
+                </form>
+            </div>
+            <!-- Right side with contact information -->
+            <div class="container-right">
+                <h3>Reach Us</h3>
+                <!-- Table for contact information -->
+                <table>
+                    <tr>
+                        <td>Email: </td>
+                        <td>UrbanEdge.com</td>
+                    </tr>
+
+                    <tr>
+                        <td>Phone: </td>
+                        <td>+91 012-456656183</td>
+                    </tr>
+
+                    <tr>
+                        <td>Address: </td>
+                        <td>Urban Edge Industrial Area <br>
+                            C-4, Lapland, <br>
+                            Finland - 110058, Finland</td>
+                    </tr>
+                </table>
+                
+                <!-- Map section -->
+                <div class="map">
+                    <img src="https://images.pexels.com/photos/8828584/pexels-photo-8828584.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Map Image" class="map-image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer section starts here -->
+    <section class="footer" id="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>quick links</h3>
+                    <a href="home.html">home</a>
+                    <a href="about.html">about</a>
+                    <a href="home.html#products">products</a>
+                    <a href="#">review</a>
+                    <a href="contact.html">contact</a>
+            </div>
+            <div class="box">
+                <h3>extra links</h3>
+                    <a href="#">my account</a>
+                    <a href="cart.html">my order</a>
+                    <a href="#">my favorite</a>   
+            </div>  
+            <div class="box">
+                <h3>locations</h3>
+                    <span>India</span>
+                    <span>USA</span>
+                    <span>Japan</span>
+                    <span>France</span>
+            </div>
+            <div class="box">
+                <h3>contact info</h3>
+                    <span>+123-678-987</span>
+                    <a href="#">urbanedge@gmail.com</a>
+                    <span>Islamabad, Pakistan - 45000</span>
+            </div>
+        </div>
+        <div class="credit">Created by<span>Ms.Designer</span>|All Rights Reserved</div>
+    </section>
+    <!-- Footer section ends here -->
+
+    <!-- JavaScript file -->
+    <script src="validation.js"></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To UrbanEdge!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="../Public/cart.css">
+    <script type="text/javascript" src="../Public/cart.js" defer></script>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <input type="checkbox" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+        <a href="#" class="logo">UrbanEdge<span>.</span></a>
+        <nav class="navbar">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="home.html#products">Categories</a>
+            <a href="contact.html">Contact</a>
+            <a href="signup.html">SignUp/SignIn</a>
+        </nav>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="cart.html" class="fas fa-shopping-cart" id="cart-icon"></a>
+            <a href="#" class="fas fa-user"></a>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home" style="background-image: url('https://images.pexels.com/photos/5632353/pexels-photo-5632353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); background-size: cover; background-position: center;">
+        <div class="content">
+            <h3>Urban<span style="color: teal;">Edge</span>.</h3>
+            <p>Our Motto: Full Cart-Happy Customer!</p>
+            <p>Ultimate Customer Satisfaction</p>
+        </div>
+    </section>
+
+    <!-- Cart Section -->
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody id="cart-items">
+                <!-- Cart items will be dynamically injected here -->
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Coupon and Totals Section -->
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" id="coupon-input" placeholder="Enter Your Coupon">
+                <button class="normal" id="coupon-button">Apply</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td id="cart-subtotal">$0</td>
+                </tr>
+                <tr>
+                    <td>Discount</td>
+                    <td id="discount-price">$0</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong id="total-price">$0</strong></td>
+                </tr>
+            </table>
+            <button class="normal" id="checkout-button">Proceed to Checkout</button>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section class="footer" id="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="home.html#products">Products</a>
+                <a href="#">Review</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="box">
+                <h3>Extra Links</h3>
+                <a href="#">My Account</a>
+                <a href="#">My Order</a>
+                <a href="#">My Favorite</a>
+            </div>
+            <div class="box">
+                <h3>Locations</h3>
+                <span>India</span>
+                <span>USA</span>
+                <span>Japan</span>
+                <span>France</span>
+            </div>
+            <div class="box">
+                <h3>Contact Info</h3>
+                <span>+123-678-987</span>
+                <a href="mailto:urbanedge@gmail.com">urbanedge@gmail.com</a>
+                <span>Islamabad, Pakistan - 45000</span>
+            </div>
+        </div>
+        <div class="credit">Created by <span>Ms. Designer</span> | All Rights Reserved</div>
+    </section>
+
+</body>
+</html>

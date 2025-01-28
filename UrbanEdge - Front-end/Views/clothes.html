@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To UrbanEdge!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Custom CSS file link -->
+    <link rel="stylesheet" href="../Public/products.css">
+    <script type="text/javascript" src="../Public/products.js" defer></script>
+</head>
+<body data-category="clothing">
+  
+    <!-- Header section starts -->
+    <header>
+        <input type="checkbox" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+        <a href="#" class="logo">UrbanEdge<span>.</span></a>
+
+        <nav class="navbar">
+          <a href="home.html">home</a>
+          <a href="about.html">about</a> <!-- Link to about.html -->
+          <a href="home.html#products">categories</a>
+          <a href="contact.html">contact</a>
+          <a href="signup.html">signUp/signIn</a> <!-- Updated login link -->
+      </nav>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="cart.html" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-user"></a>
+        </div>
+    </header>
+    <!-- Header section ends -->
+    <!-- Home section starts -->
+    <section class="home" id="home" style="background-image: url('https://images.pexels.com/photos/4492631/pexels-photo-4492631.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=10'); background-size: cover; background-position: center;">
+        <div class="content">
+            <h3>Urban<span style="color: rgb(10, 181, 181); font-size: inherit;">Clothes</span>.</h3>
+            <p>UrbanEdge presents a vibrant collection of clothing that reflects the spirit of the city. Our apparel is crafted to inspire individuality, featuring trendy designs that celebrate the unique styles and passions of those who wear them.</p>
+        </div>
+    </section>
+    <!-- Home section ends -->
+    <div class="category">
+        <div class="container">
+            <div class="category-item-container has-scrollbar">
+                <div class="category-item">
+                    <div class="category-img-box">
+                        <label for="toggler" class="fas fa-shopping-basket"></label>
+                    </div>
+                    <div class="category-content-box">
+                        <div class="category-content-flex">
+                            <h3 class="category-item-title"><b>Jewellery & Charms</b></h3>
+                            <p class="category-item-amount">(12)</p>
+                        </div>
+                        <a href="jewellery.html" class="category-btn">Show all</a>
+                    </div>
+                </div>
+                <div class="category-item">
+                    <div class="category-img-box">
+                        <label for="toggler" class="fas fa-star"></label>
+                    </div>
+                    <div class="category-content-box">
+                        <div class="category-content-flex">
+                            <h3 class="category-item-title"><b>Clothes & Comfort</b></h3>
+                            <p class="category-item-amount">(12)</p>
+                        </div>
+                        <a href="#products2" class="category-btn">Show all</a>
+                    </div>
+                </div>
+                <div class="category-item">
+                    <div class="category-img-box">
+                        <label for="toggler" class="fas fa-shopping-bag"></label>
+                    </div>
+                    <div class="category-content-box">
+                        <div class="category-content-flex">
+                            <h3 class="category-item-title"><b>Shoes & Style</b></h3>
+                            <p class="category-item-amount">(12)</p>
+                        </div>
+                        <a href="shoes.html" class="category-btn">Show all</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--deal of the day-->
+    <h2 class="title">
+      <span style="color: #19747E;">Deal</span> of the day
+    </h2>
+    <div class="product-featured">
+        <div class="showcase-wrapper has-scrollbar">
+            <!--dynamicaaly render products-->
+            <div class="showcase-container">
+          
+            <div class="showcase1">
+          
+              <div class="showcase-banner">
+                <img src="https://images.pexels.com/photos/297367/pexels-photo-297367.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Denim Duo" class="showcase-img">
+              </div>
+          
+              <div class="showcase-content">
+          
+                <div class="showcase-rating">
+                    <label for="toggler" class="fas fa-star"></label>
+                    <label for="toggler" class="fas fa-star"></label>
+                    <label for="toggler" class="fas fa-star"></label>
+                    <label for="toggler" class="fas fa-star"></label>
+                    <label for="toggler" class="fas fa-star-half"></label>
+                </div>
+          
+                <h3 class="showcase-title">
+                  <a href="#" class="showcase-title">Starlight Twirl</a>
+                </h3>
+          
+                <p class="showcase-desc">
+                  A stylish skirt that combine comfort and timeless fashion for every occasion.
+                </p>
+          
+                <div class="price-box">
+                  <p class="price"><b>$190.00</b></p>
+                  <span style="text-decoration: line-through;">$2000</span>
+                </div>
+          
+                <button class="add-cart-btn" onclick="addToCart(13)"><b>ADD TO CART</b></button>
+          
+                <div class="showcase-status">
+                  <div class="wrapper">
+                    <p> already sold: <b>4</b> </p>
+          
+                    <p> available: <b>12</b> </p>
+                  </div>
+          
+                  <div class="showcase-status-bar"></div>
+                </div>
+          
+                <div class="countdown-box">
+          
+                  <p class="countdown-desc"><b>Hurry Up! Offer ends in:</b></p>
+          
+                  <div class="countdown">
+                
+                    <div class="countdown-content">
+                      <p class="display-number"><b>24</b></p>
+                      <p class="display-text">Hours</p>
+                    </div>
+          
+                    <div class="countdown-content">
+                      <p class="display-number"><b>59</b></p>
+                      <p class="display-text">Min</p>
+                    </div>
+          
+                    <div class="countdown-content">
+                      <p class="display-number"><b>00</b></p>
+                      <p class="display-text">Sec</p>
+                    </div>
+                  </div>
+          
+                </div>
+          
+              </div>
+          
+            </div>
+          
+          </div>
+          <div class="showcase-container">
+          
+            <div class="showcase2">
+          
+              <div class="showcase-banner">
+                <img src="https://images.pexels.com/photos/19236219/pexels-photo-19236219/free-photo-of-blonde-woman-in-maxi-embroidered-dress.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Regal Layers" class="showcase-img">
+              </div>
+          
+              <div class="showcase-content">
+          
+                <div class="showcase-rating">
+                    <label for="toggler" class="fas fa-star"></label>
+                    <label for="toggler" class="fas fa-star"></label>
+                    <label for="toggler" class="fas fa-star"></label>
+                    <label for="toggler" class="fas fa-star"></label>
+                    <label for="toggler" class="fas fa-star-half"></label>
+                </div>
+          
+                <h3 class="showcase-title">
+                  <a href="#" class="showcase-title">Black Mirage</a>
+                </h3>
+          
+                <p class="showcase-desc">
+                  A stunning maxi dress paired with a  blending elegance and sophistication for a royal look
+                </p>
+          
+                <div class="price-box">
+                  <p class="price"><b>$1990.00</b></p>
+                  <span style="text-decoration: line-through;">$2000</span>
+                </div>
+          
+                <button class="add-cart-btn" onclick="addToCart(15)"><b>ADD TO CART</b></button>
+          
+                <div class="showcase-status">
+                  <div class="wrapper">
+                    <p> already sold: <b>4</b> </p>
+          
+                    <p> available: <b>12</b> </p>
+                  </div>
+          
+                  <div class="showcase-status-bar"></div>
+                </div>
+          
+                <div class="countdown-box">
+          
+                  <p class="countdown-desc"><b>Hurry Up! Offer ends in:</b></p>
+          
+                  <div class="countdown">
+                
+                    <div class="countdown-content">
+                      <p class="display-number"><b>24</b></p>
+                      <p class="display-text">Hours</p>
+                    </div>
+          
+                    <div class="countdown-content">
+                      <p class="display-number"><b>59</b></p>
+                      <p class="display-text">Min</p>
+                    </div>
+          
+                    <div class="countdown-content">
+                      <p class="display-number"><b>00</b></p>
+                      <p class="display-text">Sec</p>
+                    </div>
+                  </div>
+          
+                </div>
+          
+              </div>
+          
+            </div>
+          
+          </div>
+          <div class="showcase-container">
+          
+            <div class="showcase3">
+          
+              <div class="showcase-banner">
+                <img src="https://images.pexels.com/photos/45982/pexels-photo-45982.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Denim & Thread" class="showcase-img">
+              </div>
+          
+              <div class="showcase-content">
+          
+                <div class="showcase-rating">
+                    <label for="toggler" class="fas fa-star"></label>
+                    <label for="toggler" class="fas fa-star"></label>
+                    <label for="toggler" class="fas fa-star"></label>
+                    <label for="toggler" class="fas fa-star"></label>
+                    <label for="toggler" class="fas fa-star-half"></label>
+                </div>
+          
+                <h3 class="showcase-title">
+                  <a href="#" class="showcase-title">Eternal Cozy</a>
+                </h3>
+          
+                <p class="showcase-desc">
+                   A seamless pairing  that effortlessly blends comfort with timeless style
+                </p>
+          
+                <div class="price-box">
+                  <p class="price"><b>$1990.00</b></p>
+                  <span style="text-decoration: line-through;">$2000</span>
+                </div>
+          
+                <button class="add-cart-btn" onclick="addToCart(17)"><b>ADD TO CART</b></button>
+          
+                <div class="showcase-status">
+                  <div class="wrapper">
+                    <p> already sold: <b>4</b> </p>
+          
+                    <p> available: <b>12</b> </p>
+                  </div>
+          
+                  <div class="showcase-status-bar"></div>
+                </div>
+          
+                <div class="countdown-box">
+          
+                  <p class="countdown-desc"><b>Hurry Up! Offer ends in:</b></p>
+          
+                  <div class="countdown">
+                
+                    <div class="countdown-content">
+                      <p class="display-number"><b>24</b></p>
+                      <p class="display-text">Hours</p>
+                    </div>
+          
+                    <div class="countdown-content">
+                      <p class="display-number"><b>59</b></p>
+                      <p class="display-text">Min</p>
+                    </div>
+          
+                    <div class="countdown-content">
+                      <p class="display-number"><b>00</b></p>
+                      <p class="display-text">Sec</p>
+                    </div>
+                  </div>
+          
+                </div>
+          
+              </div>
+          
+            </div>
+          
+          </div>
+
+        </div>
+
+      </div>
+    <section class="products" id="products2">
+        <h1 class="heading">Classy<span class="featured" >Clothes</span></h1>
+        <div class="box-container">
+          <div class="box items">
+            <!-- generatedc by js -->
+          </div>
+        </div>
+    </section>
+    <!-- product section ends -->
+
+     <!-- footer section starts here -->
+    <section class="footer" id="footer">
+        <div class="box-container">
+          <div class="box">
+            <h3>quick links</h3>
+                <a href="home.html">home</a>
+                <a href="about.html">about</a>
+                <a href="home.html#products">products</a>
+                <a href="#">review</a>
+                <a href="contact.html">contact</a>
+        </div>
+            <div class="box">
+                <h3>extra links</h3>
+                    <a href="#">my account</a>
+                    <a href="cart.html">my order</a>
+                    <a href="#">my favorite</a>   
+            </div>  
+            <div class="box">
+                <h3>locations</h3>
+                    <span>India</span>
+                    <span>USA</span>
+                    <span>Japan</span>
+                    <span>France</span>
+            </div>
+            <div class="box">
+                <h3>contact info</h3>
+                    <span>+123-678-987</span>
+                    <a href="#">urbanedge@gmail.com</a>
+                    <span>Islamabad, Pakistan - 45000</span>
+            </div>
+        </div>
+        <div class="credit">Created by<span>Ms.Designer</span>|All Rights Reserved</div>
+    </section>
+    <!-- footer section ends here -->
+</body>
+</html>

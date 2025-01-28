@@ -1,0 +1,475 @@
+.section-p1{
+    padding: 40px 80px;
+}
+p{
+    font-size:16px;
+    color: #465b46;
+    margin: 15px 0 20px 0;
+}
+body{
+    width: 100%;
+}
+:root {
+    --color: #A9D6E5;
+}
+
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none; 
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+
+section {
+    padding: 2rem 9%;
+}
+
+.heading {
+    text-align: center;
+    font-size: 4rem;
+    color: #333;
+    padding: 1rem;
+    margin: 2rem 0;
+    background: rgba(255, 51, 153, .05);
+}
+
+.heading span {
+    color: var(--color);
+}
+
+header {
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    right: 0;
+    background: #fff;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+header .logo {
+    font-size: 3rem;
+    color: #333;
+    font-weight: bolder;
+}
+
+header .logo span {
+    color: var(--color);
+}
+
+header .navbar {
+    font-size: 2rem;
+    padding: 0 1.5rem;
+}
+
+header .navbar a {
+    margin: 0 1.5rem;
+    color: #19747E; 
+}
+
+header .navbar a:hover {
+    color: var(--color);
+}
+
+header .icons a {
+    font-size: 2.5rem;
+    color: #333;
+    margin-left: 1.5rem;
+}
+
+header .icons a:hover {
+    color: var(--color);
+}
+
+header #toggler {
+    display: none;
+}
+
+header .fa-bars {
+    font-size: 3rem;
+    color: #333;
+    border-radius: .5rem;
+    padding: 5rem 1.5rem;
+    cursor: pointer;
+    border: 1rem solid rgba(0, 0, 0, .3);
+    display: none;
+}
+
+/* shop */
+.single-pro-details h4{
+    font-size: x-large;
+    margin-top: -2% !important;
+    margin-top: 0.5% !important;
+}
+.single-pro-details h2{
+    font-size: large !important;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+.single-pro-details h5{
+    font-size: small !important;
+    margin-bottom: -1%;
+}
+section {
+    padding: 2rem 9%;
+    margin-bottom: 30%;
+    margin-top: 5%;
+}
+.single-pro-details{
+    margin-top: 2%;
+}
+#prodetails {
+    margin-top: 5% !important;
+    margin-bottom: 5% !important;
+}
+
+#prodetails .single-pro-image{
+    float:left;
+    padding: 35px;
+    width:50% !important;
+    height: auto;
+    margin-right: 50px;
+        
+}
+#prodetails  single-pro-details{
+    width: 75%;
+}
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#prodetails .single-pro-details{
+    width:90%;
+    padding-top:30px ;
+}
+
+#prodetails .single-pro-details h4{
+    padding: 40px 0 20px 0;
+}
+
+#prodetails .single-pro-details h2{
+    font-size: 26px;
+}
+
+#prodetails .single-pro-details select{
+   display: block;
+   padding: 5px 10px;
+   margin-bottom: 10px;
+}
+
+#prodetails .single-pro-details input{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+#prodetails .single-pro-details input:focus{
+    outline: none;
+}
+button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+#prodetails .single-pro-details button{
+    background-color: teal;
+    color: #fff;
+    padding: 1%;
+}
+#prodetails .single-pro-details button:hover{
+    background-color: #A9D6E5;
+    color: black;
+    box-shadow: 0 .5rem 1.5rem teal;
+}
+#prodetails .single-pro-details span{
+    line-height: 25px;
+}
+
+/* shop */
+
+.products {
+    background-color: #dbeef5;
+    margin-top: 0% !important;
+    margin-bottom: 0% !important;
+}
+
+.products .featured {
+    color: rgb(116, 189, 253);
+}
+
+.products .heading {
+    background-color: #e0dfdf;
+}
+
+.products .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-bottom: 10%;
+}
+
+.products .box-container .box {
+    flex: 1 1 30rem;
+    box-shadow: 0 .5rem 1.5rem black;
+    border-radius: .5rem;
+    border: .1rem solid black;
+    position: relative;
+    background-color: #e7f6fd;
+}
+
+.products .box-container .box .discount {
+    position: absolute;
+    top: 1rem; 
+    left: 1rem;
+    padding: .7rem 1rem;
+    font-size: 2rem;
+    color: var(--color);
+    background: black;
+    z-index: 1;
+    border-radius: .5rem;
+}
+
+.products .box-container .box .image {
+    position: relative;
+    text-align: center;
+    padding-top: 2rem;
+    overflow: hidden;
+}
+
+.products .box-container .box .image img {
+    height: 25rem;
+}
+
+.products .box-container .box:hover .image img {
+    transform: scale(1.1);
+}
+
+.products .box-container .box .image .icons {
+    position: absolute;
+    bottom: -7rem; 
+    left: 0; 
+    right: 0;
+    display: flex;
+}
+
+.products .box-container .box .image .icons a {
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    width: 50%;
+    background: #19747E;
+    color: #fff;
+}
+
+.products .box-container .box .image .icons .cart-btn {
+    border-left: .1rem solid rgba(255, 255, 255, 0.7);
+    border-right: .1rem solid rgba(255, 255, 255, 0.7);
+    width: 100%;
+    padding: 4% !important;
+}
+
+
+
+.products .box-container .box .image .icons a:hover {
+    background: #333;
+}
+
+.products .box-container .box:hover .image .icons {
+    bottom: 0;
+}
+
+.products .box-container .box .content {
+    padding: 2rem;
+    text-align: center;
+}
+
+.products .box-container .box .content h3 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.products .box-container .box .content .price {
+    font-size: 2.5rem;
+    color: var(--color);
+    font-weight: bolder;
+    padding-top: 1rem;
+}
+
+.products .box-container .box .content .price span {
+    font-size: 1.5rem;
+    color: #999;
+    font-weight: lighter;
+    text-decoration: line-through;
+}
+
+
+.footer{
+    background-color: rgb(11, 140, 140);
+    color: white;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+.footer .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.footer .box span {
+    display: block; 
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem 0; 
+}
+
+.footer .box-container .box {
+    flex: 1 1 25rem;
+    text-align: center;
+}
+
+.footer .credit span {
+    color: white;
+}
+
+
+.footer .box-container .box h3 {
+    color: #333;
+    font-size: 2.5rem;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box a {
+    display: block;
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box a:hover {
+    color: var(--color);
+    text-decoration: underline;
+}
+
+.footer .box-container .box img {
+    margin-top: 1rem;
+}
+
+.footer .credit {
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    padding-top: 2.5rem;
+    font-size: 2rem;
+    color: #333;
+    border-top: .1rem solid rgba(0, 0, 0, .1);
+    text-align: center;
+}
+
+.footer span {
+    color: var(--color);
+}
+
+.credit span {
+    color: #19747E;
+}
+
+@media (max-width: 991px) {
+    html {
+        font-size: 55.5%;
+    }
+
+    header {
+        padding: 2rem;
+    }
+
+    section {
+        padding: 2rem;
+    }
+
+}
+
+@media (max-width: 768px) {
+    header .fa-bars {
+        display: block;
+    }
+
+    header .navbar {
+        position: absolute;
+        top: 100%; 
+        left: 0; 
+        right: 0;
+        background: #eee;
+        border-top: .1rem solid rgba(0, 0, 0, 0.1);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    header #toggler:checked ~ .navbar {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    header .navbar a {
+        margin: 1.5rem;
+        padding: 1.5rem;
+        background: #fff;
+        border: .1rem solid rgba(0, 0, 0, 0.1);
+        display: block;
+    }
+
+}
+
+@media screen and (max-width:600px)
+{
+    .one{
+        width:100%;
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+
+    .heading {
+        font-size: 3rem;
+    }
+    #cart-add{
+        flex-direction: column;
+    }
+    #coupon{
+        width: 100%;
+    }
+    #subtotal{
+        width: 100%;
+        padding: 20px;
+    }
+}

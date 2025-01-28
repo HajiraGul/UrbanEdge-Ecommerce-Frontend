@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To UrbanEdge!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Custom CSS file link -->
+    <link rel="stylesheet" href="../Public/productdetails.css">
+    <script type="text/javascript" src="../Public/productdetails.js" defer></script>
+</head>
+
+<body>
+    <!-- Header section starts -->
+    <header>
+        <input type="checkbox" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+        <a href="#" class="logo">UrbanEdge<span>.</span></a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="about.html">about</a> <!-- Link to about.html -->
+            <a href="home.html#products">categories</a>
+            <a href="contact.html">contact</a>
+            <a href="signup.html">signUp/signIn</a> <!-- Updated login link -->
+        </nav>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="cart.html" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-user"></a>
+        </div>
+    </header>
+    <!-- Header section ends -->
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="https://images.pexels.com/photos/1302320/pexels-photo-1302320.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="100%" id="MainImg" alt="">
+        </div> 
+        <div class="single-pro-details">
+            <a href="home.html" style="font-size: medium;color: black;">Home</a><a style="font-size: medium; color: black;"> / </a><a href="shoes.html" style="font-size: medium; color: black;">Shoes</a>
+            <h4>LuxeWhite</h4>
+            <a href="#" class="fas fa-star" style="color: gold;"></a>
+            <a href="#" class="fas fa-star" style="color: gold;"></a>
+            <a href="#" class="fas fa-star" style="color: gold;"></a>
+            <a href="#" class="fas fa-star" style="color: gold;"></a>
+            <a href="#" class="fas fa-star-half" style="color: gold;"></a>
+            <h2>$45.00</h2>
+            <input type="number"value="1">
+            <button class="add-cart-btn" onclick="addToCart(1)"><b>ADD TO CART</b></button>
+            <h4>Product Details</h4>
+            <span>The LuxeWhite shoes exude sophistication with their sleek, minimalist design, perfect for elevating any outfit. Crafted from premium leather and featuring a cushioned insole, these comfortable and stylish shoes are ideal for both casual and formal occasions.</span>
+        </div>
+    </section>
+    <!-- product section starts -->
+    <section class="products" id="products">
+        <h1 class="heading">Featured<span class="featured" > Categories</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <span class="discount">-20%</span>
+                <div class="image">
+                    <img src="https://images.pexels.com/photos/792760/pexels-photo-792760.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="jewellery.html" class="cart-btn">Click For More</a>
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Jewellery</h3>
+                    <div class="Price"><span>Elegant and timeless jewelry pieces to elevate your style.</span></div>
+                </div>
+            </div>
+            <div class="box">
+                <span class="discount">-15%</span>
+                    <div class="image">
+                        <img src="https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="clothes.html" class="cart-btn">Click For More</a>
+                            <a href="#" class="fas fa-heart"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Clothes</h3>
+                        <div class="Price"><span>Trendy and comfortable clothing for every occasion.</span></div>
+                    </div>
+            </div>
+            <div class="box">
+                <span class="discount">-20%</span>
+                <div class="image">
+                    <img src="https://images.pexels.com/photos/2044228/pexels-photo-2044228.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="shoes.html" class="cart-btn">Click For More</a>
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Shoes</h3>
+                    <div class="Price"><span>Step into style with our latest collection of shoes for all occasions.</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- product section ends -->
+     <!-- footer section starts here -->
+    <section class="footer" id="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>quick links</h3>
+                    <a href="home.html">home</a>
+                    <a href="about.html">about</a>
+                    <a href="home.html#products">products</a>
+                    <a href="#">review</a>
+                    <a href="contact.html">contact</a>
+            </div>
+            <div class="box">
+                <h3>extra links</h3>
+                    <a href="#">my account</a>
+                    <a href="cart.html">my order</a>
+                    <a href="#">my favorite</a>   
+            </div>  
+            <div class="box">
+                <h3>locations</h3>
+                    <span>India</span>
+                    <span>USA</span>
+                    <span>Japan</span>
+                    <span>France</span>
+            </div>
+            <div class="box">
+                <h3>contact info</h3>
+                    <span>+123-678-987</span>
+                    <a href="#">urbanedge@gmail.com</a>
+                    <span>Islamabad, Pakistan - 45000</span>
+            </div>
+        </div>
+        <div class="credit">Created by<span>Ms.Designer</span>|All Rights Reserved</div>
+    </section>
+    <!-- footer section ends here -->
+</body>
+</html>
