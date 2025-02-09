@@ -76,7 +76,6 @@ Contributions are always welcome! Please fork the repository and create a pull r
 This is currently a front-end project, with planned future integration with a backend system for dynamic data and advanced functionalities.
 
 
-
 ### See the accompanying video for a visual demonstration of the website:
 
 
